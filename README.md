@@ -1,4 +1,5 @@
-![fasalgurudonation](https://github.com/HarshikaAdarsh/Agriculture-tech/assets/92363685/68d577c5-5496-4ffd-b743-4547249c82a3)
+![HomePage](https://github.com/HarshikaAdarsh/Agriculture-tech/assets/92363685/5fd2de82-219d-40ef-ae7c-17b1b96b2377)
+
 <h1 align="center"> Fasal Guru </h1>
 <p align="center"><i><b> Empowering Farmers through Technology </b></i></p>
 
