@@ -1,6 +1,6 @@
 
-## Fasal Guru - Empowering Farmers through Technology
-
+<h1 align="center"> Fasal Guru </h1>
+<p align="center"><i><b>🎉 Empowering Farmers through Technology 🎉</b></i></p>
 
 ### Fasal-Guru is a Web-application. A fully fucntional project written in JavaScript .
 
@@ -12,21 +12,20 @@ Welcome to Fasal Guru, a web application designed to aim at transforming the agr
 * Financial Aid: Offering a transparent donation program to support farmers during natural disasters and crop     failures.
 
 ### Feacture Module of this App
-#### Home Section:
-Introduction to the project
-Contact information
+#### * Home Section:
+Introduction to the project.
 
-#### Product Section:
+#### * Product Section:
 Sellers (Farmers) can list and sell their products by filling out a form.
 Buyers can explore products using search filters, add items to their cart, and complete orders using a secure payment gateway.
 
-#### Blog Section:
+#### * Blog Section:
 Access a variety of blogs related to farming for valuable insights and knowledge.
 
-#### Authentication:
+#### * Authentication:
 User-friendly login and sign-up process with secure authentication.
 
-#### Donation Page:
+#### * Donation Page:
 Users can contribute to the well-being of needy farmers during natural disasters through a donation page.
 Integration with the Razor pay payment gateway ensures a seamless donation process.
 
