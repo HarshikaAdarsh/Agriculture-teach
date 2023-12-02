@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/indeximg/logo.png" type="image/png">
+  <title>FasalGuru</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link href="../styles/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--navbar section-->
+  <section id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+      <div class="container-fluid my-2">
+        <a class="navbar-brand mx-3" href="./index.html"><img src="/indeximg/logo.png" width="30" height="30"
+            class="d-inline-block align-top" alt="Logo">  फसलGuru</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav ">
+
+            <li class="nav-item mx-3">
+              <button class="navbutton navibutton"><a class="nav-link active bttn" aria-current="page"
+                  href="index.html">Home</a></button>
+            </li>
+            <li class="nav-item mx-3">
+              <button class="navbutton navibutton"><a class="nav-link bttn" href="#about">About</a></button>
+            </li>
+            <li class="nav-item mx-3">
+              <button class="navbutton navibutton"><a class="nav-link bttn" href="#contactus">Contact</a></button>
+            </li>
+            <li class="nav-item mx-3">
+              <button class="navbutton navibutton"><a class="nav-link bttn" href="blog.html" style="width:3.2rem; height:3rem">Blog</a></button>
+            </li>
+          </ul>
+        </div>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown2">
+          <ul class="navbar-nav superLinker">
+            <li class="nav-item mx-2 linker">
+              <a class="nav-link reg" href="./login.html" style="font-size:1.1rem;">Welcome</a>
+            </li>
+
+            <li class="nav-item mx-2 linker">
+              <a class="nav-link reg" href="./donate.html" style="font-size:1.1rem;">Donate<i class="fa fa-credit-card-alt"
+                  aria-hidden="true" style="margin-left: 4px;"></i></a>
+            </li>
+            <li class="nav-item mx-2 linker">
+              <a class="nav-link reg" href="./shop.html" style="font-size:1.1rem;">Shop<i class="fa fa-shopping-cart"
+                  aria-hidden="true" style="margin-left: 4px;"></i></a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+    <nav class="navbar searchcustom py-2 ">
+      <div class="container-fluid justify-content-end py-1">
+        <form class="d-flex mx-2" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width:25rem;">
+          <button type="button" class="btn btn-success">Search</button>
+        </form>
+      </div>
+    </nav>
+  </section>
+
+  <!--carousel section-->
+  <section id="maincarousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/indeximg/greenfield.jpg" class="d-block w-100 carousel-img" alt="crops">
+          <div class="carousel-caption">
+            <h3>Farm-fresh goodness, delivered to your doorstep!</h3>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/indeximg/womanfarmer.jpg" class="d-block w-100 carousel-img" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/indeximg/farmings.jpg" class="d-block w-100 carousel-img" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+
+  <!--About Section-->
+  <section id="about">
+
+
+    <div class="row container-fluid my-4 px-5">
+      <h1 style="margin-top:2rem;margin-left:25px;"> About us</h1>
+      <div class="row second">
+        <div class="col">
+          <img src="/indeximg/foodfood.jpg" alt="foodimage" style="width:600px;   max-width: 100%;
+     height: auto;
+     display: block;
+     margin-top: 50px;">
+        </div>
+
+        <div class="col para">
+
+          <h2> Empowering <br> Agriculture with <br>Innovative Solutions</h2><br>
+        <p style="font-family: 'Montserrat', sans-serif;">  We are dedicated to give farmers increased productivity and efficiency by providing them with cutting-edge
+          technological solutions.Our website offers a wide range of resources and tools to help farmers make informed
+          decisions and improve their farming practices. </p>
+       
+          <h3>Export and Delivery Services:</h3>
+          <p style="font-family: 'Montserrat', sans-serif;">
+          Our team works hard to ensure that farmers have access to markets beyond their local communities. We offer
+          export services that connect farmers with buyers from around the world, allowing them to increase their income
+          and improve their livelihoods. In addition, we provide delivery services to ensure that products are
+          transported safely and efficiently.</p>
+    
+
+        </div>
+      </div>
+
+      <div class="row second">
+
+        <div class="col">
+          <img src="/indeximg/tractor.jpeg" alt="foodimage" style="width:600px;   max-width: 100%;
+      height: auto;
+      display: block;
+      margin-top: 50px;">
+        </div>
+
+        <div class="col para">
+
+          <h3>Donation Program:</h3>
+          <p style="font-family: 'Montserrat', sans-serif;">We understand that farming can be a difficult and unpredictable profession, and we want to support farmers
+          through the ups and downs. That's why we have a donation program that provides assistance to farmers during
+          critical situations, such as natural disasters, crop failures, or unexpected expenses. We believe that
+          supporting farmers is essential to building resilient communities, and we are committed to doing our part.</p>
+         
+          <h3>Crop and Season Information:</h3>
+         <p style="font-family: 'Montserrat', sans-serif;"> We also want to help farmers improve their farming practices and maximize their yields. Our website provides
+          information about different crops, including planting and harvesting schedules, recommended fertilizers, and
+          pest control measures. We also provide seasonal updates and weather forecasts, so that farmers can plan their
+          operations accordingly.
+
+          Thank you for choosing our agricultural website for your farming needs. We are dedicated to supporting farmers
+          and building sustainable agricultural communities, and we look forward to serving you. If you have any
+          questions or feedback, please don't hesitate to contact us.</p>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--featured products-->
+  <section id="featured">
+  <div class="featured-products">
+    <h2 style=" margin-bottom: 4rem;">Products</h2>
+    <div class="product-container  my-5 px-5">
+      <div class="product" onclick={shop()}>
+        <img src="/indeximg/veggie.jpeg" alt="Product 1" style="width: 80%;">
+        <br>
+        <h3 style="margin-top:10px;">Vegetables</h3>
+      </div>
+      <div class="product" onclick={shop()}>
+        <img src="/indeximg/grain.jpeg" alt="Product 2" style="width: 80%;">
+        <h3 style="margin-top:10px;">Grains</h3>
+       
+      </div>
+      <div class="product" onclick={shop()}>
+        <img src="/indeximg/tools.jpg" alt="Product 3" style="width: 80%;">
+        <h3 style="margin-top:10px;">Farming Tools</h3>
+      </div>
+    </div>
+    <a href="./shop.html"><button id="shopm"> Shop More
+    </button></a>
+  </div>
+</section>
+
+
+<!--contact section-->
+<section id ="contactus">
+  <h1 style="margin-top:4rem;"> Contact us</h1>
+  <div class="container fluid">
+    <div class = "row" style="height:25%;">
+     
+    <h2 id="add">Address</h2>
+    <br>
+    <p>E-Mail:- hello@fasalguru.com</p>
+     <p> Address: Shop No 16, Panchkuian Road, Karol Bagh , Delhi , 110005</p>
+     <p>Phone no: +91 01123362340</p>
+
+  </div>
+
+
+  <div class = "row">
+  
+    <h2 id="for">Contact form</h2>
+    <form class="form">
+    
+      <input type="text" id="name" name="name" required class="form--input" placeholder="Your Name">
+  
+      <input type="email" id="email" name="email" required class="form--input" placeholder="Your Email">
+  
+      <textarea id="message" name="message" required style="width:80%; height:10rem;" class="form--input" placeholder="Enter Message"></textarea>
+      <button class="--submit">
+        Send</button>
+    </form>
+    </div>
+  </div>
+
+</section>
+
+
+<!--newsletter-->
+<section id="newsletter">
+<form class="form  my-5 px-5 " style="margin-top: 5rem;">
+  <span class="title">Subscribe to our newsletter.</span>
+  <p class="description">Receive regular updates on, and be the first to know about any new developments. Plus, you'll get exclusive access to special offers and promotions only available to our subscribers.</p>
+  <div>
+    <input placeholder="Enter your email" type="email" name="email" id="email-address">
+    <button type="submit">Subscribe</button>
+  </div>
+</form>
+</section>
+
+
+<footer>
+  <div class="row container-fluid">
+  <div class="col">
+    <img src="/indeximg/logo.png" style="width: 10%;">
+    <h4 style="margin-top: 0.5rem;">Contact</h4>
+    <p><strong>Address :</strong>  Shop No 16, Panchkuian Road,<br> Karol Bagh , Delhi , 110005</p>
+    <p><strong>Contact no. :</strong>+91 01123362340</p>
+    <div class="follow">
+      <h4>Follow us</h4>
+      <div class="icon">
+       <a href="#"><i class="fa fa-facebook"></i></a>
+       <a href="#"> <i class="fa fa-twitter"></i></a>
+        <a href="#"> <i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-pinterest"></i></a>    
+        <a href="#"> <i class="fa fa-youtube"></i></a>      
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+  <h4>About</h4>
+  <a href="#">About us</a>
+  <a href="#">Delivery Information </a>
+  <a href="#">Privacy Policy</a>
+  <a href="#">Terms & Conditions</a>
+  <a href="#">Contact Us</a>
+
+  </div>
+
+
+  <div class="col">
+    <h4>My Account</h4>
+    <a href="#">Sign in</a>
+    <a href="#">View Cart </a>
+    <a href="#">My Wishlist</a>
+    <a href="#">Track my order</a>
+    <a href="#">Help</a>
+ </div>
+
+    <div class="col">
+      <h4>Install App</h4>
+      <p>From App Store or Google Play</p>
+      <div class="row">
+        <img src="/indeximg/app.jpg" >
+        <img src="/indeximg/play.jpg">
+      </div>
+      <br>
+      <p>Secured Payment Gateways</p>
+      <img src="/indeximg/pay.png">
+    </div>
+
+    
+
+    </div>
+ </footer>  
+ <div class="copyright">
+  <p>© 2023 www.fasalguru.com - All Rights Reserved</p>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous">
+  </script>
+  <script src="../app.js"></script>
+</body>
+
+</html>

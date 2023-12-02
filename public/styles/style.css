@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Sans:wght@100;200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjord+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@500;600&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-brand{
+  font-family: 'Cinzel', serif;
+  color: #3C6255;
+  font-size:x-large;
+  font-weight: 500;
+}
+
+ .bg-custom{
+    background-color:#CEEDC7;
+ }
+
+ .navbar-nav .nav-link .bttn {
+    color: #3C6255;
+    font-family: 'EB Garamond', serif;
+    padding-top: inherit;
+  }
+
+  .navbar-nav .nav-link .reg {
+    font-size: 1.1rem;
+    color: #3C6255;
+    font-family: 'EB Garamond', serif;
+  }
+
+
+  
+  .navbar-nav .nav-link:hover {
+    color: black;
+  }
+
+
+  .carousel-img {
+    height: 600px; 
+    width: 800px;
+    object-fit: cover;
+    
+  }
+  .material-symbols-outlined{
+    line-height: 0px;
+   
+  }
+
+  #maincarousel .carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(rgba(119, 118, 118, 0.5), rgba(0, 0, 0, 0.5));
+  }
+
+  .navbutton {
+    height: 2.5rem;
+    font-weight: 600;
+    color: #090909;
+    padding: 0.1em 1.1em;
+    font-size: 14px;
+    border-radius: 1.2em;
+    background: #CCEABB;
+    border: 1px solid #CCEABB;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+               -6px -6px 12px #ffffff;
+  }
+  
+  .navbutton:hover {
+    border-bottom: 1px solid black;
+  }
+  
+  .navbutton:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+               -4px -4px 12px #ffffff;
+  }
+
+  .row{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  .para{
+    font-family: 'Fjord One', serif;
+    font-size: 16px;
+    padding-top:40px;
+  }
+
+  .para h2{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 4rem;
+    color: #40513B;
+  }
+
+  #about img{
+    border-radius: 0.5rem;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    }
+  
+  #about h1{
+    font-family:  'Abril Fatface', cursive;
+    font-size: 4rem;
+    color: #839AA8;
+    
+  }  
+
+  .searchcustom {
+    background: none;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+  }
+
+  .linker {
+    border: 1px solid white;
+  }
+  
+  .linker:hover {
+    /* border: 1px solid #CCEABB; */
+    /* background: #CCEABB */
+    border-bottom: 1px solid black;
+  }
+
+  .superLinker {
+    /* border: 1px solid; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2%;
+  }
+
+  
+  .featured-products {
+    margin-top: 10rem;
+    text-align: center;
+  }
+  
+  .product-container {
+    display: flex;
+    justify-content: space-around;
+  
+    
+  }
+  
+  .product {
+    width: 22%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px #959a9a;
+    transition: 0.2s ease;
+  }
+
+  .product:hover{
+    box-shadow: 20px 20px 30px #656868;
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    pointer-events: none;
+    
+  }
+  
+  .product h3 {
+    pointer-events: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .product p {
+    pointer-events: none;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .featured-products h2{
+      font-family:  'Abril Fatface', cursive;
+    font-size: 4rem;
+    color: #839AA8;
+  }
+
+  .featured-products #shopm {
+    margin: 20px 0;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .featured-products #shopm:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+  .featured-products #shopm:active {
+    transform: translateY(-1px);
+  }
+  
+
+#contactus .container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 6rem;
+}
+
+#contactus h1{
+  font-family:  'Abril Fatface', cursive;
+  font-size: 4rem;
+  color: #839AA8;
+  text-align: center;
+}
+
+#contactus #add{
+  color: rgb(77, 75, 75);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 0.5em;
+}
+
+
+#contactus .row{
+width: 45%;
+padding: 20px;
+border: 1px solid #e4e4e4;
+border-radius: 7px;
+text-align: center;
+background-color: white;
+padding: 3.125em;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+
+box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+}
+
+
+#for{
+  color: rgb(77, 75, 75);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 0.5em;
+}
+
+#contactus .form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contactus .form--input {
+  width:78.5%;
+  margin: 1em;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 0.8em;
+  font-family: 'Inter', sans-serif;
+  outline: none;
+
+}
+
+#contactus .form--input:focus {
+  border: 1px solid #639;
+  outline: none;
+}
+
+ .--submit {
+  width: 25%;
+  padding: 0.625em;
+  border-radius: 5px;
+  color: white;
+  background-color:#23c483;
+  border: 1px dashed #23c483;
+  cursor: pointer;
+}
+
+ .--submit:hover {
+  color:#23c483;
+  background-color: white;
+  border: 1px dashed #23c483;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#contactus p{
+  font-family:  'Ubuntu', sans-serif;
+  font-weight: 400;
+}
+
+#newsletter .form {
+  display: flex;
+  flex-direction: column;
+  background-color: #CCEABB;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 100%;
+ 
+}
+
+
+#newsletter .title {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: #084813;
+}
+
+#newsletter .description {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: #084813;
+}
+
+#newsletter .form div {
+  display: flex;
+  max-width: 28rem;
+  margin-top: 1rem;
+  column-gap: 0.5rem;
+}
+
+#newsletter .form div input {
+  outline: none;
+  line-height: 1.5rem;
+  font-size: 0.875rem;
+  color:#084813;
+  padding: 0.5rem 0.875rem;
+  background-color: rgba(7, 84, 15, 0.05);
+  border: 1px solid rgba(10, 90, 26, 0.363);
+  border-radius: 0.375rem;
+  flex: 1 1 auto;
+  
+}
+
+#newsletter .form div input::placeholder {
+  color: rgb(216, 212, 212);
+}
+
+#newsletter .form div input:focus {
+  border: 1px solid rgb(99 102 241);
+}
+
+#newsletter .form div button {
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 0.625rem 0.875rem;
+  background-color: #23c483;
+  border-radius: 0.375rem;
+  border: none;
+  outline: none;
+}
+
+footer .col h4{
+  font-size: 19px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+footer .col p{
+  font-size:13px;
+  font-family: 'Montserrat', sans-serif;
+  margin-left:8px;
+}
+
+footer .col a{
+  font-size:13px;
+  font-family: 'Montserrat', sans-serif;
+  color: #222;
+  text-decoration: none;
+
+}
+
+footer .follow{
+  height:60px;
+}
+
+footer .col .icon i{
+  padding: 3px;
+  margin-left:5px;
+  color: #222;
+}
+footer .col .row{
+  align-items: center; 
+  float: left;
+  margin:10px;
+}
+
+footer .col .row img{
+  float: left;
+  padding: 5px;
+  width:40%;
+  height:40px;
+}
+
+footer{
+  margin:10px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+}
+
+footer .col{
+  display: flex;
+  flex-direction: column;
+
+}
+.copyright{
+  font-size:10px;
+  margin:10px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+ 
+}
+
+footer .follow .icon i:hover,
+footer .col a:hover{
+  color: #327258;
+}
+
+

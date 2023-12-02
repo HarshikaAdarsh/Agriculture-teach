@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/indeximg/logo.png" type="image/png">
+  <title>FasalGuru</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link href="../styles/style.css" rel="stylesheet">
+  <link href="../styles/cart.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!--navbar section-->
+  <section id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+      <div class="container-fluid my-2">
+        <a class="navbar-brand mx-3" href="#"><img src="/indeximg/logo.png" width="30" height="30"
+            class="d-inline-block align-top" alt="Logo"> फसलGuru</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav ">
+
+            <li class="nav-item mx-3">
+              <button class="navbutton navibutton"><a class="nav-link bttn"
+                  href="../index.html">Home</a></button>
+            </li>
+            <li class="nav-item mx-3">
+              <button class="navbutton navibutton"><a class="nav-link bttn" href="../index.html#about">About</a></button>
+            </li>
+            <li class="nav-item mx-3">
+              <button class="navbutton navibutton"><a class="nav-link bttn" href="../index.html#contactus">Contact</a></button>
+            </li>
+            <li class="nav-item mx-3">
+              <button class="navbutton navibutton"><a class="nav-link bttn" href="blog.html" style="width:3.2rem; height:3rem">Blog</a></button>
+            </li>
+          </ul>
+        </div>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown2">
+          <ul class="navbar-nav superLinker">
+            <li class="nav-item mx-2 linker">
+              <a class="nav-link reg" href="./login.html" style="font-size:1.1rem;">Sign in <i class="fa fa-user-circle"
+                  aria-hidden="true" style="margin-left: 4px; "></i></a>
+            </li>
+
+            <li class="nav-item mx-2 linker">
+              <a class="nav-link reg" href="./donate.html" style="font-size:1.1rem;">Donate <i class="fa fa-credit-card-alt"
+                  aria-hidden="true" style="margin-left: 4px;"></i></a>
+            </li>
+            <li class="nav-item mx-2 linker">
+              <a class="nav-link reg" href="./shop.html" style="font-size:1.1rem;">Shop <i class="fa fa-shopping-cart"
+                  aria-hidden="true" style="margin-left: 4px;"></i></a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+  
+  <div class="master-container ">
+    <div class="card cart">
+      <label class="title">Your cart</label>
+      <div class="products">
+        <div class="product">
+          <img src="/shopimg/barley.jpg">
+          <div>
+            <span>Barley Grains</span>
+            
+          </div>
+          <div class="quantity">
+            <input class="w-25 p-lg-2 input1" value="1" type="number" min="0" style="border-radius: 4px; height: 30%;">
+            </button>
+          </div>
+          <label class="price small">₹9.5</label>
+          <i class="fa fa-trash carttrash" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+  
+    <div class="card coupons">
+      <label class="title">Apply coupons</label>
+      <form class="form">
+          <input type="text" placeholder="Apply your coupons here" class="input_field">
+          <button class="--submit">
+            Apply</button>
+      </form>
+    </div>
+  
+    <div class="card checkout">
+      <label class="title">Checkout</label>
+      <div class="details">
+        <span>Your cart subtotal:</span>
+        <span>₹9.5</span>
+        <span>Discount through applied coupons:</span>
+        <span>₹3</span>
+        <span>Shipping fees:</span>
+        <span>₹21</span>
+      </div>
+      <div class="checkout--footer">
+        <label class="pricefinal"><sup>₹</sup>27.5</label>
+        <button class="--submit" style="width:15%;">
+          Checkout</button>
+      </div>
+    </div>
+  </div>
+ 
+    
+    
+    <footer>
+      <div class="row container-fluid">
+      <div class="col">
+        <img src="/indeximg/logo.png" style="width: 10%;">
+        <h4 style="margin-top: 0.5rem;">Contact</h4>
+        <p><strong>Address :</strong>  Shop No 16, Panchkuian Road,<br> Karol Bagh , Delhi , 110005</p>
+        <p><strong>Contact no. :</strong>+91 01123362340</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icon">
+           <a href="#"><i class="fa fa-facebook"></i></a>
+           <a href="#"> <i class="fa fa-twitter"></i></a>
+            <a href="#"> <i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-pinterest"></i></a>    
+            <a href="#"> <i class="fa fa-youtube"></i></a>      
+          </div>
+        </div>
+      </div>
+    
+      <div class="col">
+      <h4>About</h4>
+      <a href="#">About us</a>
+      <a href="#">Delivery Information </a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Contact Us</a>
+    
+      </div>
+    
+    
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign in</a>
+        <a href="#">View Cart </a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track my order</a>
+        <a href="#">Help</a>
+     </div>
+    
+        <div class="col">
+          <h4>Install App</h4>
+          <p>From App Store or Google Play</p>
+          <div class="row">
+            <img src="/indeximg/app.jpg" >
+            <img src="/indeximg/play.jpg">
+          </div>
+          <br>
+          <p>Secured Payment Gateways</p>
+          <img src="/indeximg/pay.png">
+        </div>
+    
+        
+    
+        </div>
+     </footer>  
+     <div class="copyright">
+      <p>© 2023 www.fasalguru.com - All Rights Reserved</p>
+    </div>
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous">
+      </script>
+      <script src="../cart.js"></script>
+    </body>
+    
+    </html>
+

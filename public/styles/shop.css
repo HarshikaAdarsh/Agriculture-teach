@@ -1,0 +1,190 @@
+.product{
+    cursor: pointer;
+    margin-bottom:2rem;
+
+}
+
+.product img{
+    transition: 0.3s all;
+}
+.product:hover img{
+    opacity:0.7;
+}
+.product .buy-btn{
+   margin-top: 5px;
+    opacity:0;
+    background: #fb774b;
+    transform:translateY(20px);
+    transition:0.3s all;
+}
+.product:hover .buy-btn{
+    opacity:1;
+    transform:translateY(0px);
+   
+}
+
+#header2{
+    background-image: url("/shopimg/vegies.png") ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+    height: 40vh;
+    width:100%;
+    padding: 0 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 14px;
+   
+  }
+  
+  #header2 h2,
+  #header2 p{
+  color: #fbfffb;
+  font-family:'Montserrat', sans-serif ;
+  font-weight: 600;
+  text-shadow: rgb(14, 14, 14);
+  }
+
+  #featured button{
+    display: inline;
+    justify-content: space-around;
+  }
+
+  .btndesign{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
+  :focus {
+    outline: 0;
+    /* border-color: #2260ff; */
+    /* box-shadow: 0 0 0 4px #b5c9fc; */
+  }
+  
+  .mydict div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2.2rem;
+    justify-content: center;
+  }
+  
+  .mydict input[type="radio"] {
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+  
+  .mydict input[type="radio"]:checked + span {
+    box-shadow: 0 0 0 0.0625em #0043ed;
+    background-color: #dee7ff;
+    z-index: 1;
+    color: #0043ed;
+  }
+  
+  label span {
+    display: block;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 0.375em .75em;
+    position: relative;
+    margin-left: .0625em;
+    box-shadow: 0 0 0 0.0625em #b5bfd9;
+    letter-spacing: .05em;
+    color: #3e4963;
+    text-align: center;
+    transition: background-color .5s ease;
+  }
+  
+  label:first-child span {
+    border-radius: .375em 0 0 .375em;
+  }
+  
+  label:last-child span {
+    border-radius: 0 .375em .375em 0;
+  }
+ /*import export switch button*/
+  
+.button-box {
+	width: 220px;
+  width: -1rem;
+  margin-left : 42rem;
+  margin-right: 5rem;
+  margin-top:5rem ;
+  margin-bottom:1rem ;
+	position: relative;
+	border-radius: 30px;
+	background: #fff
+}
+
+.toggle-btn {
+	padding: 10px 40px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+	text-align: center;
+}
+
+#btn {
+	left: 0;
+	top: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background:#198754;
+	border-radius: 30px;
+	transition: .5s;
+}
+
+#notFeatured {
+  margin: 10vh 0 10vh 0;
+  display: none;  
+}
+
+form {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #198754;
+  border-radius: 1rem;
+  
+
+}
+
+form p {
+  /* border: 1px solid; */
+  margin: 10% 0 0 0;
+  color: white;
+}
+form p:last-child {
+  margin-bottom: 10%; 
+}
+
+form p label {
+  width: 10vw;
+}
+
+form p input {
+  outline: none;
+  border: none;
+}
+
+#submit {
+  border: none;
+  outline: none;
+  padding: 10% 20%;
+  border-radius: 10px;
+}
+
