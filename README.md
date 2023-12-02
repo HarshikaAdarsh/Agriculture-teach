@@ -1,6 +1,6 @@
 
 <h1 align="center"> Fasal Guru </h1>
-<p align="center"><i><b>🎉 Empowering Farmers through Technology 🎉</b></i></p>
+<p align="center"><i><b> Empowering Farmers through Technology </b></i></p>
 
 ### Fasal-Guru is a Web-application. A fully fucntional project written in JavaScript .
 
@@ -38,4 +38,25 @@ Integration with the Razor pay payment gateway ensures a seamless donation proce
 - Express.js
 - MongoDB
 
-<img src="./readme_image/Screenshot 2023-11-30 140435.png" width="180" height="180" border="10"/>
+### User Instructions
+
+#### Installation
+
+* Clone the repository to your local machine.
+git clone https://github.com/your-username/fasal-guru.git
+
+* Navigate to the project directory.
+cd fasal-guru
+
+* Install dependencies.
+npm install
+
+#### Configuration
+
+* Set up MongoDB database and configure connection settings in the application.
+* Update API keys for external services if necessary
+
+#### Running the Application
+
+npm start
+Visit http://localhost:3000 in your browser to access Fasal Guru.
