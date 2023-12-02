@@ -43,10 +43,10 @@ Integration with the Razor pay payment gateway ensures a seamless donation proce
 #### Installation
 
 * Clone the repository to your local machine.
-git clone https://github.com/your-username/fasal-guru.git
+git clone https://github.com/HarshikaAdarsh/Agriculture-tech
 
 * Navigate to the project directory.
-cd fasal-guru
+cd fasal_guru
 
 * Install dependencies.
 npm install
