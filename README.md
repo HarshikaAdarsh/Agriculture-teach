@@ -1,4 +1,4 @@
-
+![fasalgurudonation](https://github.com/HarshikaAdarsh/Agriculture-tech/assets/92363685/68d577c5-5496-4ffd-b743-4547249c82a3)
 <h1 align="center"> Fasal Guru </h1>
 <p align="center"><i><b> Empowering Farmers through Technology </b></i></p>
 
@@ -56,7 +56,10 @@ npm install
 * Set up MongoDB database and configure connection settings in the application.
 * Update API keys for external services if necessary
 
+
 #### Running the Application
 
 npm start
 Visit http://localhost:3000 in your browser to access Fasal Guru.
+
+![Uploading fasalgurudonation.png…]()
