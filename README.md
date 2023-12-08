@@ -45,12 +45,12 @@ Integration with the Razor pay payment gateway ensures a seamless donation proce
 ### Prerequisites:
 
 Before running the project on your system, make sure that you have the following installed and configured:
- * Any IDE (VS code) which you are using.
- * Nodejs version v18.15.0 or higher.
- * To check if it is intalled or not in your system. - open you cmd and write command "node -v". 
- * MongoDB compass 
+ * Set up any IDE (VS code) which you are using.
+ * Set up Nodejs version v18.15.0 or higher.
+ * To check if it is intalled or not in your system. - open you cmd and write command "node -v". Else you can install it from here https://nodejs.org/en/download/current 
+ * Set up MongoDB compass for database. You can install it from here https://www.mongodb.com/try/download/compass 
 
-#### Installation
+### Installation
 
 * Clone the repository to your local machine.
 git clone https://github.com/HarshikaAdarsh/Agriculture-tech
@@ -60,16 +60,16 @@ cd fasal_guru
 
 * Install dependencies.
 npm install
+npm i nodemon
 
-#### Configuration
+### Configuration
 
 * Set up the MongoDB database and configure connection settings in the application.
-* Update API keys for external services if necessary
 
-
-#### Running the Application
-
-npm start
+### Running the Application
+npm run dev
 Visit http://localhost:3000 in your browser to access Fasal Guru.
 
+
 ![Uploading fasalgurudonation.png…]()
+
