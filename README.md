@@ -3,16 +3,17 @@
 <h1 align="center"> Fasal Guru </h1>
 <p align="center"><i><b> Empowering Farmers through Technology </b></i></p>
 
-### Fasal-Guru is a Web-application.
+## Fasal-Guru is a Web-application.
 
 Welcome to Fasal Guru, a web application designed to transform the agricultural landscape by leveraging technology to benefit smallholder farmers. This project addresses challenges faced by farmers, including lack of market information, exploitation by middlemen, and the impact of climate change.This project combines the functionality of an E-commerce web app with additional features tailored to the needs of both sellers (farmers) and buyers.
 
-### Key Points
+## Key Points
 * Market Access: Connecting farmers directly with markets, reducing dependence on middlemen.
 * Information Empowerment: Providing real-time market data, crop and season information, and blogs on farming.
 * Financial Aid: Offering a transparent donation program to support farmers during natural disasters and crop     failures.
 
-### Feature Module of this App
+## Feature Module of this App
+
 #### * Home Section:
 Introduction to the project.
 
@@ -30,7 +31,7 @@ User-friendly login and sign-up process with secure authentication.
 Users can contribute to the well-being of needy farmers during natural disasters through a donation page.
 Integration with the Razor pay payment gateway ensures a seamless donation process.
 
-### Technology Stack
+## Technology Stack
 
 - HTML
 - CSS
@@ -39,7 +40,15 @@ Integration with the Razor pay payment gateway ensures a seamless donation proce
 - Express.js
 - MongoDB
 
-### User Instructions
+## User Instructions
+
+### Prerequisites:
+
+Before running the project on your system, make sure that you have the following installed and configured:
+ * Any IDE (VS code) which you are using.
+ * Nodejs version v18.15.0 or higher.
+ * To check if it is intalled or not in your system. - open you cmd and write command "node -v". 
+ * MongoDB compass 
 
 #### Installation
 
