@@ -47,7 +47,7 @@ Integration with the Razor pay payment gateway ensures a seamless donation proce
 Before running the project on your system, make sure that you have the following installed and configured:
  * Set up any IDE (VS code) which you are using.
  * Set up Nodejs version v18.15.0 or higher.
- * To check if it is intalled or not in your system. - open you cmd and write command "node -v". Else you can install it from here https://nodejs.org/en/download/current 
+ * To check if it is intalled or not in your system. - open your command prompt and write command "node -v". Else you can install it from here https://nodejs.org/en/download/current 
  * Set up MongoDB compass for database. You can install it from here https://www.mongodb.com/try/download/compass 
 
 ### Installation
