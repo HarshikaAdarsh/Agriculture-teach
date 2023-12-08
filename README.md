@@ -59,8 +59,8 @@ git clone https://github.com/HarshikaAdarsh/Agriculture-tech
 cd fasal_guru
 
 * Install dependencies.
-npm install
-npm i nodemon
+ 1. npm install
+ 2. npm i nodemon
 
 ### Configuration
 
